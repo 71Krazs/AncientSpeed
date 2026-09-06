@@ -1,0 +1,330 @@
+// Faster Ancient Stations — Palworld 1.0.3
+//
+// This patch makes every recipe currently exclusive to the Ancient Workbench
+// or Ancient Furnace take one third of its vanilla WorkAmount (3x crafting speed).
+// Shared recipes are deliberately untouched, so Advanced Workbench/other stations
+// retain normal timings. Rebuild or update this list after a Palworld patch that
+// changes which station a recipe belongs to.
+
+{
+  "DT_ItemRecipeDataTable": {
+    "PalSphere_Ancient_1": {
+      "WorkAmount": 2000
+    },
+    "PalSphere_Ancient_2": {
+      "WorkAmount": 3333.333333
+    },
+    "WidePenetrateShotgunBullet": {
+      "WorkAmount": 1000
+    },
+    "ElectricArcAssaultRifleBullet": {
+      "WorkAmount": 1000
+    },
+    "BeamLauncherBullet": {
+      "WorkAmount": 1000
+    },
+    "SkyBowArrow": {
+      "WorkAmount": 833.333333
+    },
+    "SkySubmachineGunBullet": {
+      "WorkAmount": 833.333333
+    },
+    "SkyShotgunBullet": {
+      "WorkAmount": 833.333333
+    },
+    "SkyAssaultRifleBullet": {
+      "WorkAmount": 833.333333
+    },
+    "SkyGrenadeLauncherBullet": {
+      "WorkAmount": 833.333333
+    },
+    "WingGlider_Fuel": {
+      "WorkAmount": 3333.333333
+    },
+    "SkyBeamSword": {
+      "WorkAmount": 11666.666667
+    },
+    "SkyBeamSword_2": {
+      "WorkAmount": 46666.666667
+    },
+    "SkyBeamSword_3": {
+      "WorkAmount": 93333.333333
+    },
+    "SkyBeamSword_4": {
+      "WorkAmount": 186666.666667
+    },
+    "SkyBeamSword_5": {
+      "WorkAmount": 373333.333333
+    },
+    "SkyBow": {
+      "WorkAmount": 11666.666667
+    },
+    "SkyBow_2": {
+      "WorkAmount": 46666.666667
+    },
+    "SkyBow_3": {
+      "WorkAmount": 93333.333333
+    },
+    "SkyBow_4": {
+      "WorkAmount": 186666.666667
+    },
+    "SkyBow_5": {
+      "WorkAmount": 373333.333333
+    },
+    "SkyShotgun": {
+      "WorkAmount": 11666.666667
+    },
+    "SkyShotgun_2": {
+      "WorkAmount": 46666.666667
+    },
+    "SkyShotgun_3": {
+      "WorkAmount": 93333.333333
+    },
+    "SkyShotgun_4": {
+      "WorkAmount": 186666.666667
+    },
+    "SkyShotgun_5": {
+      "WorkAmount": 373333.333333
+    },
+    "WidePenetrateShotgun": {
+      "WorkAmount": 11666.666667
+    },
+    "WidePenetrateShotgun_2": {
+      "WorkAmount": 46666.666667
+    },
+    "WidePenetrateShotgun_3": {
+      "WorkAmount": 93333.333333
+    },
+    "WidePenetrateShotgun_4": {
+      "WorkAmount": 186666.666667
+    },
+    "WidePenetrateShotgun_5": {
+      "WorkAmount": 373333.333333
+    },
+    "SkyAssaultRifle": {
+      "WorkAmount": 11666.666667
+    },
+    "SkyAssaultRifle_2": {
+      "WorkAmount": 46666.666667
+    },
+    "SkyAssaultRifle_3": {
+      "WorkAmount": 93333.333333
+    },
+    "SkyAssaultRifle_4": {
+      "WorkAmount": 186666.666667
+    },
+    "SkyAssaultRifle_5": {
+      "WorkAmount": 373333.333333
+    },
+    "ElectricArcAssaultRifle": {
+      "WorkAmount": 11666.666667
+    },
+    "ElectricArcAssaultRifle_2": {
+      "WorkAmount": 46666.666667
+    },
+    "ElectricArcAssaultRifle_3": {
+      "WorkAmount": 93333.333333
+    },
+    "ElectricArcAssaultRifle_4": {
+      "WorkAmount": 186666.666667
+    },
+    "ElectricArcAssaultRifle_5": {
+      "WorkAmount": 373333.333333
+    },
+    "SkySubmachineGun": {
+      "WorkAmount": 11666.666667
+    },
+    "SkySubmachineGun_2": {
+      "WorkAmount": 46666.666667
+    },
+    "SkySubmachineGun_3": {
+      "WorkAmount": 93333.333333
+    },
+    "SkySubmachineGun_4": {
+      "WorkAmount": 186666.666667
+    },
+    "SkySubmachineGun_5": {
+      "WorkAmount": 373333.333333
+    },
+    "SkyGrenadeLauncher": {
+      "WorkAmount": 11666.666667
+    },
+    "SkyGrenadeLauncher_2": {
+      "WorkAmount": 46666.666667
+    },
+    "SkyGrenadeLauncher_3": {
+      "WorkAmount": 93333.333333
+    },
+    "SkyGrenadeLauncher_4": {
+      "WorkAmount": 186666.666667
+    },
+    "SkyGrenadeLauncher_5": {
+      "WorkAmount": 373333.333333
+    },
+    "BeamLauncher": {
+      "WorkAmount": 11666.666667
+    },
+    "BeamLauncher_2": {
+      "WorkAmount": 46666.666667
+    },
+    "BeamLauncher_3": {
+      "WorkAmount": 93333.333333
+    },
+    "BeamLauncher_4": {
+      "WorkAmount": 186666.666667
+    },
+    "BeamLauncher_5": {
+      "WorkAmount": 373333.333333
+    },
+    "DroneLauncher": {
+      "WorkAmount": 11666.666667
+    },
+    "DroneLauncher_2": {
+      "WorkAmount": 46666.666667
+    },
+    "DroneLauncher_3": {
+      "WorkAmount": 93333.333333
+    },
+    "DroneLauncher_4": {
+      "WorkAmount": 186666.666667
+    },
+    "DroneLauncher_5": {
+      "WorkAmount": 373333.333333
+    },
+    "Shield_07": {
+      "WorkAmount": 33333.333333
+    },
+    "AncientArmor": {
+      "WorkAmount": 4333.333333
+    },
+    "AncientArmor_2": {
+      "WorkAmount": 17333.333333
+    },
+    "AncientArmor_3": {
+      "WorkAmount": 34666.666667
+    },
+    "AncientArmor_4": {
+      "WorkAmount": 69333.333333
+    },
+    "AncientArmor_5": {
+      "WorkAmount": 138666.666667
+    },
+    "AncientArmorHeat": {
+      "WorkAmount": 4666.666667
+    },
+    "AncientArmorHeat_2": {
+      "WorkAmount": 18666.666667
+    },
+    "AncientArmorHeat_3": {
+      "WorkAmount": 37333.333333
+    },
+    "AncientArmorHeat_4": {
+      "WorkAmount": 74666.666667
+    },
+    "AncientArmorHeat_5": {
+      "WorkAmount": 149333.333333
+    },
+    "AncientArmorCold": {
+      "WorkAmount": 4666.666667
+    },
+    "AncientArmorCold_2": {
+      "WorkAmount": 18666.666667
+    },
+    "AncientArmorCold_3": {
+      "WorkAmount": 37333.333333
+    },
+    "AncientArmorCold_4": {
+      "WorkAmount": 74666.666667
+    },
+    "AncientArmorCold_5": {
+      "WorkAmount": 149333.333333
+    },
+    "AncientArmorWeight": {
+      "WorkAmount": 5000
+    },
+    "AncientArmorWeight_2": {
+      "WorkAmount": 20000
+    },
+    "AncientArmorWeight_3": {
+      "WorkAmount": 40000
+    },
+    "AncientArmorWeight_4": {
+      "WorkAmount": 80000
+    },
+    "AncientArmorWeight_5": {
+      "WorkAmount": 160000
+    },
+    "AncientHelmet": {
+      "WorkAmount": 1666.666667
+    },
+    "AncientHelmet_2": {
+      "WorkAmount": 6666.666667
+    },
+    "AncientHelmet_3": {
+      "WorkAmount": 13333.333333
+    },
+    "AncientHelmet_4": {
+      "WorkAmount": 26666.666667
+    },
+    "AncientHelmet_5": {
+      "WorkAmount": 53333.333333
+    },
+    "Accessory_ExplosionResist": {
+      "WorkAmount": 3.333333
+    },
+    "GasMask": {
+      "WorkAmount": 3.333333
+    },
+    "Accessory_JumpCount_Increase2": {
+      "WorkAmount": 1333.333333
+    },
+    "WingGlider": {
+      "WorkAmount": 10000
+    },
+    "PalAwakening_Water": {
+      "WorkAmount": 100
+    },
+    "PalAwakening_Electric": {
+      "WorkAmount": 100
+    },
+    "PalAwakening_Ground": {
+      "WorkAmount": 100
+    },
+    "PalAwakening_Grass": {
+      "WorkAmount": 100
+    },
+    "PalAwakening_Fire": {
+      "WorkAmount": 100
+    },
+    "PalAwakening_Ice": {
+      "WorkAmount": 100
+    },
+    "PalAwakening_Dragon": {
+      "WorkAmount": 100
+    },
+    "PalAwakening_Dark": {
+      "WorkAmount": 100
+    },
+    "PalAwakening_Neutral": {
+      "WorkAmount": 100
+    },
+    "Fruit_hp_01": {
+      "WorkAmount": 666.666667
+    },
+    "Fruit_attack_01": {
+      "WorkAmount": 666.666667
+    },
+    "Fruit__defense_01": {
+      "WorkAmount": 666.666667
+    },
+    "SphereModule_Homing": {
+      "WorkAmount": 33333.333333
+    },
+    "SkyislandIngot": {
+      "WorkAmount": 2333.333333
+    },
+    "WorldTreeIngot": {
+      "WorkAmount": 3333.333333
+    }
+  }
+}
